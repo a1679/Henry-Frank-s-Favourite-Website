@@ -1,0 +1,113 @@
+/* Modern Evaluation Page Style - Fresh Teal/Blue Scheme */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(circle at top left, #0f3d59, #041e2e);
+  color: #e0f7fa;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* Header / Navigation */
+.topbar {
+  background: linear-gradient(135deg, #064e63, #0a7890);
+  color: white;
+  padding: 40px 80px;
+  text-align: center;
+  position: relative;
+}
+
+.topbar h1 {
+  font-family: "Poller One", sans-serif;
+  font-size: 64px;
+  margin: 0;
+  color: #a6f0f1;
+}
+
+.back-link {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b0e0e6;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+/* Main Content */
+.evaluation-container {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 5px solid #00e5ff; /* accent color for left border */
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin-bottom: 60px;
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.2);
+}
+
+h2 {
+  font-family: "Poller One", sans-serif;
+  color: #00e5ff;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #d0f0f5;
+}
+
+/* Tools Section Grid */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.tool-card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0,229,255,0.05);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.tool-card:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-3px);
+}
+
+.tool-card h3 {
+  color: #00f0ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #81d4fa;
+  background-color: #032028;
+  border-top: 1px solid rgba(0,229,255,0.05);
+}

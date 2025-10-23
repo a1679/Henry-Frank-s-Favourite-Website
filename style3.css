@@ -1,0 +1,242 @@
+body {
+    background-color:#4A3C34;
+    color:#ffffff;
+    height:auto;
+}
+
+h1 {
+    font-size:50px;
+    font-style:normal;
+    font-family: "Source Serif 4", serif;
+    margin-top: 300px;
+    margin-bottom: 275px;
+}
+
+.header_img {
+    position: relative;
+    text-align: center;
+}
+
+.header_img img {
+    width: 30%;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    z-index: -1;
+}
+
+.header_img h1 {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.lii .liimg {
+    display: inline;
+}
+
+.navbarul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    height:70px;
+    font-size: 20px;
+    font-style: arial;
+    border-bottom: 2px white solid;
+    padding-bottom:20px;
+}
+
+.lii {
+    float:right;
+    margin-top: 10px;
+    font-family: "Noto Serif SC", serif;
+}
+
+.liimg {
+    float:left;
+    font-family: "Source Serif 4", serif;
+}
+
+.lii a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top:14px;
+    padding-bottom:14px;
+    margin-left:15px;
+    text-decoration: none;
+    width:90px;
+    font-size: 25px;
+}
+
+.liimg a {
+    display: block;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    padding: 14px;
+    margin-left:20px;
+    text-decoration: none;
+    color:#ffffff;
+    margin-top:1.6%;
+}
+
+.lii a:hover {
+    color:rgb(255, 236, 62);
+    border-color:rgb(255, 236, 62);
+}
+
+.liimg a:hover {
+    color:rgb(255, 236, 62);
+}
+
+.source-serif-4-title {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.source-serif-4-navbartitle {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.noto-serif-sc-navbarwords {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section {
+    padding-top: 50px;
+    font-family: "Source Serif 4", serif;
+    padding-bottom: 50px;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.details {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+}
+
+.overview {
+    background-color: #3B2A1D;
+    color: white;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+
+/* Caption text */
+.text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-weight:bold;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #545454;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1} 
+}
+
+pre {
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #3ea642;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}

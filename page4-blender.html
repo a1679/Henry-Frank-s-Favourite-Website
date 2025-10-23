@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style4.css">
+  <title>Blender</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Poller+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+
+
+</head>
+
+<body>
+  <div class="header_img">
+    <div class="sidenavbar">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="page1-recipe.html">Simple Omlette Recipe</a>
+            <a href="page2-redesign.html">Edited Recipe</a>
+            <a href="page3-arduino.html">Ardunio & C++</a>
+            <a href="page4-blender.html">Blender</a>
+            <a href="page5-evaluation.html">Final Evaluation</a> <!-- NEW LINK -->
+        </div>
+      </div>
+
+      <span style="font-size:69px; cursor:pointer; color:white; margin-left:94%;" onclick="openNav()">&#9776;</span>
+
+      <script>
+        function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </div>  
+
+    <img src="Images/Dunegon_Pic.jpg" alt="Image of my Blender Dunegon" style="width: 1260px; left:0%; top:0%; height:550px;">
+    <h1 style="padding-left:150px; padding-top: 70px;">3D Modeling Blender Dungeon</h1>
+  </div>
+
+  <section id="overview">
+    <h2>Project Overview</h2>
+    <p>I took inspiration for my dungeon from jails. My dungeon consists of a hallway with jail cells on either side. At the end of the hallway is a treasure room with an exit (a ladder leading up), but before that there’s a spike trap pit.</p>
+
+    <ul class="techniques">
+      <li>Used various modifers to speed up workflow.</li>
+      <li>Created single floor and wall tiles, then applied the Array modifier on both the X and Y axes to duplicate and align them automatically instead of placing each one manually.​</li>
+      <li>Used the Boolean modifier on both the dungeon and assets as a cutting tool for the jail cell lock, pillar arch, and much more</li>
+      <li>Tools like scaling, extrude, inset, bevel, to add more detail and patterns</li>
+    </ul>
+  </section>
+
+
+
+  <section id="gallery">
+    <h2>Model Gallery</h2>
+    <div class="gallery">
+      <img src="Images/Dunegon_JailCell.jpg" alt="Image of my Blender Dungeon's Jail Cell">
+      <img src="Images/Dunegon_Pic.jpg" alt="Image of my Blender Dungeon's Hallway">
+      <img src="Images/Dunegon_Trap.jpg" alt="Image of my Blender Dungeon's spike trap">
+      <img src="Images/Dunegon_Treasure.jpg" alt="Image of my Blender Dungeon's treasure room">
+    </div>
+  </section>
+
+
+  <section id="walkthrough">
+    <h2>Walkthrough</h2>
+    <div class="video-container">
+      <iframe src="Images/camera_animated.mp4" title="Blender Dungeon Walkthrough" allowfullscreen></iframe>
+    </div>
+  </section>
+</body>
+</html>
